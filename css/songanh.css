@@ -781,7 +781,7 @@ table.lv_union_table_menuheader{
 	background-image:none;	
 }
 #UnionNews_menu_mode2 li .Union_block{	
-	height:30px;
+	/* height:30px; */
 	overflow:hidden;
 }
 div.union_main_image{

@@ -1111,7 +1111,7 @@ div.news-tab-li-item a:hover{
 	text-decoration:none;
 }
 .news-tab-xemtiep{
-	background: url("../img/more.gif") no-repeat right center;
+	/* background: url("../img/more.gif") no-repeat right center; */
 	padding-right:10px;
 }
 .news-tab{

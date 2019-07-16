@@ -556,11 +556,17 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 		                                                    }
 		                                                </script>
 		                                                <div id="ctl00_g_da1bea07_646a_41ce_b12e_b91b7711d60f_ctl00_mainPanel">
+		                                                        <script type="text/javascript">
+		                                                            function start() {
+		                                                              new mq("m1", 10);
+		                                                              mqRotate(mqr, 10); // must come last
+		                                                            }
+		                                                            window.onload = doublecast(window.onload, start);
+		                                                          </script>
 		                                                    <div>
 		                                                        <div style="text-align: center;"><span
-		                                                                style="font-family: tahoma; font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline ! important; float: none;">Nhiệt
-		                                                               <span
-		                                                                    style="display: inline-block;"></span></span></div>
+		                                                                style="font-family: tahoma; font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline ! important; float: none;"> <marquee></span></marquee>
+		                                                                 </span></span></div>
 		                                                    </div>
 		                                                </div>
 		
@@ -732,7 +738,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
                                                   href="#"
                                                   target="_blank" alt=""><img
                                                       style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px"
-                                                      src="/img/gqdt.jpg"></a>
+                                                      src="//img/gqdt.jpg"></a>
                                           </div>
                                       </div>
                                       <div class="div-image">
@@ -953,7 +959,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
                               <td class="TitleFront"><a
                                   href="/xu-ly-don-kien-nghi-phan-anh-cua-ong-nguyen-van-ninh">Xử lý đơn kiến nghị, phản anh của ông Nguyễn Văn Ninh<span
                                     class="ShowDate">
-                                    (16.07.2019 11:16)
+                                    (16.07.2019 12:13)
                                   </span></a></td>
                             </tr>
                             <tr>

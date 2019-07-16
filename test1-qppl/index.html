@@ -556,11 +556,17 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 		                                                    }
 		                                                </script>
 		                                                <div id="ctl00_g_da1bea07_646a_41ce_b12e_b91b7711d60f_ctl00_mainPanel">
+		                                                        <script type="text/javascript">
+		                                                            function start() {
+		                                                              new mq("m1", 10);
+		                                                              mqRotate(mqr, 10); // must come last
+		                                                            }
+		                                                            window.onload = doublecast(window.onload, start);
+		                                                          </script>
 		                                                    <div>
 		                                                        <div style="text-align: center;"><span
-		                                                                style="font-family: tahoma; font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline ! important; float: none;">Nhiệt
-		                                                               <span
-		                                                                    style="display: inline-block;"></span></span></div>
+		                                                                style="font-family: tahoma; font-size: 13px; font-style: normal; font-weight: normal; letter-spacing: normal; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline ! important; float: none;"> <marquee></span></marquee>
+		                                                                 </span></span></div>
 		                                                    </div>
 		                                                </div>
 		
@@ -835,7 +841,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
                                                            href="#"
                                                            target="_blank" alt=""><img
                                                                style="BORDER-RIGHT-WIDTH: 0px; WIDTH: 100%px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px"
-                                                               src="/img/gqdt.jpg"></a>
+                                                               src="//img/gqdt.jpg"></a>
                                                    </div>
                                                </div>
                                                <div class="div-image">
@@ -896,7 +902,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
         </div>
         <div class="zoneCent">
                 <div class="zoneCent-wp">
-                <div class="zoneCent-wp1">
+                <div class="zoneCent-wp1" style="    border: 1px solid #2bb5fe;">
                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                     <tbody><tr>
                         <td id="MSOZoneCell_WebPartctl00_m_g_818772d3_0663_4ec0_92e9_a961f4ac5805" valign="top" class="s4-wpcell-plain"><table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">

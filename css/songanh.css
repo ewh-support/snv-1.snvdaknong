@@ -113,7 +113,7 @@ div.thongbao-detail td.LItem a, div.thongbao-detail td.LItem a:link {
 	display: block;
 }
 .logoS {
-	background: url("/img/banner.png") no-repeat left top;
+	
 	width: 962px;
 	height: 151px;
 }
@@ -180,7 +180,7 @@ ul#topnav li#firstlist0{
 }
 #topnav ul.children {
 	position: absolute;
-	background: url("../img/bg-submenubot.png") no-repeat left bottom;
+	/* background: url("../img/bg-submenubot.png") no-repeat left bottom; */
 	width: 167px;
 	z-index: 10;
 	padding-bottom: 10px;
@@ -302,7 +302,7 @@ div.s4-search .ms-sbcell input{
 }
 .home{
 	float:right;
-	background:url("../img/arrow-up.png") no-repeat 0px 12px;
+	/* background:url("../img/arrow-up.png") no-repeat 0px 12px; */
 }
 .Footer-menu{
 	color:#fff;	
@@ -701,10 +701,10 @@ table.ds_VBPL tr:hover td, table.LacVietSPList-TimKiemTongQuan tr:hover td ,.div
 .zoneCent{
 	background: url("../img/tin-bot.png") no-repeat left bottom;
 	overflow:hidden;
-	padding-bottom:7px;		
+	padding-bottom:1px;		
 }
 .zoneCent-wp,.zoneCent1{
-	background: url("../img/tin-top1.png") no-repeat left top;
+	/* background: url("../img/tin-top1.png") no-repeat left top; */
 	padding-top:5px;		
 }
 .zoneCent-wp1,.zoneCent2{
@@ -1111,7 +1111,7 @@ div.news-tab-li-item a:hover{
 	text-decoration:none;
 }
 .news-tab-xemtiep{
-	background: url("../img/more.gif") no-repeat right center;
+	/* background: url("../img/more.gif") no-repeat right center; */
 	padding-right:10px;
 }
 .news-tab{
@@ -1186,7 +1186,7 @@ div.news-tab-li-item a:hover{
 	margin:0px 10px 0px 10px;
 	padding:9px 0px 10px 0px;
 	overflow:hidden;
-	background: url("../img/r-space.gif") repeat-x left top;
+	/* background: url("../img/r-space.gif") repeat-x left top; */
 }
 .divvanbanmoi:first-child{
 	background-image:none!important;
@@ -1417,7 +1417,7 @@ div#ppy1 .ppy-nav {
 .linkweb{
 	border:1px #47aede solid;
 	overflow:hidden;
-	background:#bcdded url("../img/r-borBox.png") repeat-x left top;	
+	/* background:#bcdded url("../img/r-borBox.png") repeat-x left top;	 */
 }
 .linkweb-title {
 	background: url("../img/bg-hittitle.png") no-repeat 10px bottom;
@@ -2467,6 +2467,7 @@ font-weight:bold;
 }
 .pagination{
 	float:right;
+	padding-right: 10px;
 }
 /*search*/
 #SRP{
@@ -2648,6 +2649,7 @@ div.srch-Page{
 }
 .pagination{
 	float:right;
+	padding-right: 10px;
 }
 .title-item-slide{
 	display:none;
